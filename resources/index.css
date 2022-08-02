@@ -1,0 +1,71 @@
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: white;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkslategrey;
+    font-size: 1.5rem;
+}
+a{
+    color: black;
+}
+.top{
+    margin-top: 10rem;
+    border: 2px solid black;
+}
+.intro{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-around;
+
+}
+.quote{
+    display: flex;
+    margin-top: 12rem;
+    text-align: left;
+    background-color: darkgoldenrod;
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+.tour{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.point{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 648px){
+    header{
+        font-size: 2rem;
+    }
+    .point img{
+        max-width: 550px;
+    }
+}
+@media only screen and (max-width: 320px){
+    header{
+        font-size: 1rem;
+    }
+    nav{
+        font-size: 1rem;
+    }
+    .intro{
+        flex-wrap: wrap;
+    }
+    .point img{
+        max-width: 300px;
+    }
+    
+}
